@@ -10,9 +10,9 @@ The API is called with a POST request where the query parameters are in the requ
  * [Statistics Finland API guide in Finnish](https://www.stat.fi/static/media/uploads/org/avoindata/pxweb_api-ohje.pdf)
 
 ### Quickstart
-* Select a table [from a free-of-charge database](https://www.stat.fi/tup/tilastotietokannat/index_en.html)
-* Using the pxweb-web-interface, select which variables/dimensions to include in the table and click *Show table*
-* Once the table is rendered, scroll down and click *API query for this table* and send the JSON query to the URL in the body of a POST request from your application
+* Select a table [from one of the free-of-charge databases](https://www.stat.fi/tup/tilastotietokannat/index_en.html)
+* Using the pxweb-web-interface, select which variables/dimensions to include in the table and click __Show table__
+* Once the table is rendered, scroll down and click __API query for this table__ and send the JSON query to the URL in the body of a POST request from your application
 
 ## API
 The URL for the API call is constructed from:  
