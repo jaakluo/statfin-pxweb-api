@@ -1,0 +1,43 @@
+{
+    "query": [
+        {
+            "code": "Alue",
+            "selection": {
+                "filter": "item",
+                "values": [
+                    "091"
+                ]
+            }
+        },
+        {
+            "code": "Talotyyppi",
+            "selection": {
+                "filter": "all",
+                "values": [
+                    "*"
+                ]
+            }
+        },
+        {
+            "code": "Kuukausi",
+            "selection": {
+                "filter": "top",
+                "values": [
+                    "6"
+                ]
+            }
+        },
+        {
+            "code": "Tiedot",
+            "selection": {
+                "filter": "item",
+                "values": [
+                    "keskihinta"
+                ]
+            }
+        }
+    ],
+    "response": {
+        "format": "csv"
+    }
+}

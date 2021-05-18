@@ -1,0 +1,34 @@
+{
+   "query": [
+      {
+         "code": "Toimiala (TOL 2008)",
+         "selection": {
+            "filter": "all",
+            "values": [
+               "*"
+            ]
+         }
+      },
+      {
+         "code": "Tiedot",
+         "selection": {
+            "filter": "all",
+            "values": [
+               "*"
+            ]
+         }
+      },
+      {
+         "code": "Vuosi",
+         "selection": {
+            "filter": "top",
+            "values": [
+               "1"
+            ]
+         }
+      }
+   ],
+   "response": {
+      "format": "csv"
+   }
+}
