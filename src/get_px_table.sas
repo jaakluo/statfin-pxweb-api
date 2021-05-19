@@ -31,7 +31,7 @@ Parameters:
 	     rename_variables =%str(
 		        content=tranwrd(content, "Turnover of establishments of enterprises (EUR 1,000)",	
                                 "turnover");
-		        content=tranwrd(content, "Turnover of establishments of enterprises per person (EUR 1,000))",	
+		        content=tranwrd(content, "Turnover of establishments of enterprises per person (EUR 1,000)",	
                                 "turnover_per_person");
 	         ),
 	     http_options  =%str(
