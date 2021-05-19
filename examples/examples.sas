@@ -20,7 +20,7 @@
 /*  
 	Statfin table 11ak has two numerical variables that are identical until 
 	32 characters (SAS has a max length of 32 bytes for variable names).
-    When using proc import, the latter variable will override the former 
+        When using proc import, the latter variable will override the former 
 	variable (which ends up being dropped).
 */
 %get_px_table(
@@ -45,7 +45,7 @@
 	out_dir      =&root.\examples\responses\,
 	rename_variables =%str(
 		content=tranwrd(content, "Turnover of establishments of enterprises (EUR 1,000)",	"turnover");
-		content=tranwrd(content, "Turnover of establishments of enterprises per person (EUR 1,000))",	"turnover_per_person");
+		content=tranwrd(content, "Turnover of establishments of enterprises per person (EUR 1,000)",	"turnover_per_person");
 	),
 	http_options  =%str(
 		proxyhost   ="&config_proxy."
