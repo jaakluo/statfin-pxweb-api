@@ -11,7 +11,7 @@ The API is called with a POST request where the query parameters are in the requ
 
 ### Quickstart
 * Select a table [from one of the free-of-charge databases](https://www.stat.fi/tup/tilastotietokannat/index_en.html)
-* Using the pxweb-web-interface, select which variables/dimensions to include in the table and click __Show table__
+* Using the PXWeb web interface, select which variables/dimensions to include in the table and click __Show table__
 * Once the table is rendered, scroll down and click __API query for this table__ and send the JSON query to the URL in the body of a POST request from your application
 
 ## API
@@ -75,7 +75,7 @@ From this, we can take the path and id for table __112n__ and get metadata assoc
 
 <pre>https://pxnet2.stat.fi/PXWeb/api/v1/en/StatFin/asu/ashi/kk/statfin_ashi_pxt_112n.px</pre>  
 
-Table metadata consists of a given table's variables and variables' dimensions, which can be used to either obtain a subset of the table or the full published table. A table's numerical variables listed in the *values* list of the *Tiedot* list item.
+Table metadata consists of a given table's variables and variables' dimensions, which can be used to either obtain a subset of the table or the full published table. A table's numerical variables are listed in the *values* list of the *Tiedot* list item.
 
 ``` 
 {
@@ -116,7 +116,7 @@ The API call to retrieve a table is made by sending a POST request to the same a
 The JSON body of the API call consists of two parts:
 
 1. Categorical and numerical variables are defined in the __query__ list
-   * Categorical variables are individual query-list items
+   * Categorical variables are individual query list items
    * Numerical variables are listed in the values list in the item with code "Tiedot"
 
 2. Output format is defined in the __response__ element. Supported output formats are json, csv, px, xlsx, json-stat and json-stat2.
